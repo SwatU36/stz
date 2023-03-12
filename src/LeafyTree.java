@@ -1,7 +1,5 @@
 public class LeafyTree extends Tree{
 
-
-
    public LeafyTree(int numberOfBranches, int numberOfRoots, double heightOfTrunk) {
         super(numberOfBranches,numberOfRoots,heightOfTrunk);
         super.height = heightOfTrunk + numberOfBranches*0.4;
